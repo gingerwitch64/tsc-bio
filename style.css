@@ -2,7 +2,13 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #000000;
+    background: no-repeat center center fixed
+        url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Arnold_B%C3%B6cklin_-_Die_Toteninsel_III_%28Alte_Nationalgalerie%2C_Berlin%29.jpg/2560px-Arnold_B%C3%B6cklin_-_Die_Toteninsel_III_%28Alte_Nationalgalerie%2C_Berlin%29.jpg");
     color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 div.main {
     margin-top: 0px;
@@ -11,16 +17,19 @@ div.main {
     border-right: 16px solid #00ff00;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    height: 90vh;
+    max-height: 95vh;
+    max-width: 1000px;
 }
 
 section {
     border: 8px solid #ff0000;
-    border-radius: 16px;
+    border-radius: 1600px;
     width: 50%;
+    padding: 16px;
+    background-color: #000000af;
 }
 
 img.icon {
@@ -33,9 +42,13 @@ img.icon {
 }
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
-/*
+p.flex-child {
+    text-align: center;
+    margin: auto;
+}
+
 .flex-child:nth-child {
     margin-right: 20px;
     margin-left: 20px;
@@ -46,4 +59,3 @@ img.icon {
 .flex-child:last-child {
     margin-left: 20px;
 }
-*/
