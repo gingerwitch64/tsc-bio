@@ -7,33 +7,101 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="description" content="" />
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="icon" href="favicon.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link rel="manifest" href="site.webmanifest" />
     </head>
 
     <body>
         <div class="main">
-            <header>
-                <h1>Ginger</h1>
+            <header class="flex-container blurbg">
+                <img
+                    class="pfp flex-child"
+                    src="https://cdn.discordapp.com/avatars/693881589112897608/98dd772d4bcb896d08839e1c60d2a50d.png?size=512"
+                    height="400"
+                    width="400"
+                />
+                <div class="flex-child">
+                    <h1>Ginger</h1>
+                    <p>
+                        Profile picture by
+                        <a href="https://discord.com/users/543269669050777613"
+                            >VoidicAttire</a
+                        >!
+                    </p>
+                    <p>She/her. L-3 Access. DM friendly.</p>
+                    <p>
+                        Discord -
+                        <a href="https://discord.com/users/693881589112897608"
+                            >@gingerwitch64</a
+                        >
+                        <br />
+                        Roblox -
+                        <a href="https://www.roblox.com/users/445868268/profile"
+                            >@gingerwaffe</a
+                        >
+                    </p>
+                </div>
             </header>
-            <main class="flex-container">
-                <section class="flex-child flex-container">
+            <main>
+                <section class="flex-container blurbg" id="rsd">
                     <img
                         class="icon flex-child"
                         src="images/rsd_minimalist_v4_1.png"
+                        height="400"
+                        width="400"
                     />
                     <p class="flex-child">
                         Research & Studies<br />MR (Researcher)
                     </p>
                 </section>
-                <section class="flex-child flex-container">
-                    <img class="icon flex-child" src="images/md_logo.png" />
+                <section class="flex-container blurbg" id="md">
+                    <img
+                        class="icon flex-child"
+                        src="images/md_logo.png"
+                        height="400"
+                        width="400"
+                    />
                     <p class="flex-child">
                         Medical Department<br />LR (Nursing Student)
                     </p>
                 </section>
                 <!--section class="flex-child"></!section-->
             </main>
-            <footer></footer>
+            <footer blurbg>
+                <h2>
+                    Play
+                    <a href="https://rose-engine.org/signalis/">SIGNALIS</a>!!!
+                    :D
+                </h2>
+                <div class="player">
+                    <iframe
+                        style="border: 0; width: 100%; height: 120px"
+                        src="https://bandcamp.com/EmbeddedPlayer/album=3377165789/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/transparent=true/"
+                        seamless
+                        ><a
+                            href="https://signalis-ost.bandcamp.com/album/signalis-original-soundtrack"
+                            >SIGNALIS (ORIGINAL SOUNDTRACK) by Cicada Sirens
+                            &amp; 1000 Eyes</a
+                        ></iframe
+                    >
+                </div>
+            </footer>
         </div>
         <script src="app.js"></script>
     </body>

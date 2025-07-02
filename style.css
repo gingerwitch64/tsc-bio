@@ -12,35 +12,114 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 div.main {
-    margin-top: 10vh;
-    height: 50vh;
-    padding-top: 10vh;
-    border: 2px solid #00ff00;
-    padding-left: 2%;
-    padding-right: 2%;
+    /*margin-top: 10%;*/
+    /*border: 2px solid #00ff00;*/
+    margin-top: 2%;
+    padding: 2%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    max-width: 1000px;
+    max-width: 750px;
 }
-header {
-    border: 8px solid #ffff00;
-    border-radius: 1600px;
-    margin-bottom: 2%;
+header,
+footer {
+    border: 8px solid #ff6400;
+    border-radius: 16px;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    min-width: fit-content;
+    width: auto;
     background-color: #000000af;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: 16px;
+    border: 8px solid #bf2222;
+    padding: 2%;
+    min-width: 370px;
+    width: auto;
+}
+
+h2 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+main {
+    margin: 0;
+    padding: 0;
 }
 
 section {
-    border: 8px solid #ff0000;
-    border-radius: 1600px;
-    max-width: 50%;
+    margin-top: 16px;
+    margin-bottom: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #005a7d;
+    border-radius: 16px;
+    /*border-radius: 1600px;*/
+    max-height: 10%;
     padding: 16px;
     background-color: #000000af;
+    min-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-img.icon {
-    width: 30%;
+section#rsd {
+    border-color: #009bff;
+}
+
+section#md {
+    border-color: #36c9c9;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    font-size: 130%;
+    text-align: left;
+    word-wrap: inherit;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+/*img.icon {
+    width: 256px;
+    height: auto;
     border-radius: 50%;
+}*/
+img.pfp {
+    display: block;
+    max-width: 10vh;
+    max-height: 10vh;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+img.icon {
+    display: block;
+    max-width: 10vh;
+    max-height: 10vh;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+
+.blurbg {
+    backdrop-filter: blur(8px);
 }
 
 .flex-container {
@@ -53,9 +132,6 @@ img.icon {
 p.flex-child {
     text-align: center;
     margin: auto;
-}
-p {
-    font-size: 125%;
 }
 .flex-child:nth-child {
     margin-right: 20px;
